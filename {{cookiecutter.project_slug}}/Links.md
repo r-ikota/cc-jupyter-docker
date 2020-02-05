@@ -13,3 +13,4 @@
 * [pandas](http://pandas.pydata.org/)
 * [Bokeh](https://numfocus.org/project/bokeh)
 * [SymPy](https://www.sympy.org/en/index.html)
+* [Sphinx](https://www.sphinx-doc.org/)
