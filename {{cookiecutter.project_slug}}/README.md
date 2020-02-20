@@ -4,8 +4,10 @@
 ## License
 BSD
 
+## How to launch
+You can launch a container with docker-compose or with the remote-container extension in VScode.
 
-## Docker
+### docker-compose
 To launch a container at the project root, 
 
     $ docker-compose up
@@ -22,6 +24,13 @@ If you have to run a command as a root,
 
 To destroy the container you launched,
     $ docker-compose down
+
+### remote-container extension
+Run VScode and type the following in the command pallet
+
+     Remote-Containers: Open Folder in Container
+     
+Consult [the official document](https://code.visualstudio.com/docs/remote/containers) for details.
 
 ## Jupyter Notebook Container
 For information on Jupyter Docker Stacks, consult the followings:

@@ -2,9 +2,19 @@
 # Opensource
 * [NumFOCUS](https://www.numfocus.org/open-source-projects.html)
 
-## Python
+## Docker
+* [Reference](https://docs.docker.com/reference/)
+    * [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+    * [Compose-file](https://docs.docker.com/compose/compose-file/)
 
-* [Python Officieal Cite](https://www.python.org/)
+## Jupyter
+* [Jupyter](https://jupyter.org)
+* [docker-stacks on github](https://github.com/jupyter/docker-stacks)
+* [docker-stack on dockerhub](https://hub.docker.com/u/jupyter/)
+
+
+## Python
+* [Python Officieal Site](https://www.python.org/)
 * [PyPI](https://pypi.python.org/)
 * [Anaconda](https://www.continuum.io/)
 * [Enthought](https://www.enthought.com/)
@@ -14,3 +24,22 @@
 * [Bokeh](https://numfocus.org/project/bokeh)
 * [SymPy](https://www.sympy.org/en/index.html)
 * [Sphinx](https://www.sphinx-doc.org/)
+
+# R
+* [The R Project for Statistical Computing](https://www.r-project.org)
+* [R kernel for Jupyter](https://irkernel.github.io)
+
+# Julia
+* [Julia Official Site](https://julialang.org)
+    * [Julia Documentation](https://docs.julialang.org/en/)
+* [PyJulia](https://github.com/JuliaPy/pyjulia)
+    * [PyJulia Documentation](https://pyjulia.readthedocs.io/en/latest/)
+
+## VScode
+* [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview
+)
+    * [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
+    * [Advanced Container Configuration](https://code.visualstudio.com/docs/remote/containers-advanced
+)
+    * [Visual Studio Online](https://code.visualstudio.com/docs/remote/vsonline)
+

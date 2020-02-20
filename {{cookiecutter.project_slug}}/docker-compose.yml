@@ -1,10 +1,10 @@
 version: '3'
 services:
-    python:
+    jupyter:
         build:
-            context: ./Docker/
+            context: ./.devcontainer
             dockerfile: Dockerfile
         ports:
-            - "8888:8888"
+            - "{{cookiecutter.jupyter_port}}:{{cookiecutter.jupyter_port}}"
         volumes:
-            - ./work:/home/jovyan/work
+            - .:/home/jovyan/work:cached
