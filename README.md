@@ -4,7 +4,7 @@
 
   $ cookiecutter gh:r-ikota/cookiecutter-jupyter-docker
 
-You can launch a container with docker-compose or with the remote-container extension in VScode.
+You can launch a container with the remote-container extension in VScode as well as with docker-compose.
 Read `README.md` in the generated project directory for details.
 
 ## About cookiecutter
