@@ -11,7 +11,6 @@ COPY requirements-conda.txt /tmp/
 RUN conda install --yes --file /tmp/requirements-conda.txt && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
-ENV PYTHONPATH=$HOME/work/src
 WORKDIR $HOME/work/src
 
 # Uncomment the following lines 

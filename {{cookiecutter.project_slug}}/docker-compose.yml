@@ -4,6 +4,8 @@ services:
         build:
             context: ./.devcontainer
             dockerfile: Dockerfile
+        environment: 
+            - PYTHONPATH=/home/jovyan/work/src
         ports:
             - "{{cookiecutter.jupyter_port}}:{{cookiecutter.jupyter_port}}"
         volumes:
