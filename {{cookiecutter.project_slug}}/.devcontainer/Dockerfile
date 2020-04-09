@@ -4,14 +4,16 @@ FROM $BASE_CONTAINER
 
 # USER root
 # RUN apt-get update \
-#  && apt-get install less
+#  && apt-get install -y less tree
 # COPY --chown=$NB_USER:$NB_GID <a file you want to copy> $HOME/ 
+# COPY --chown=$NB_USER:$NB_GID .emacs $HOME/ 
+
 USER $NB_UID
 COPY requirements-conda.txt /tmp/
 RUN conda install --yes --file /tmp/requirements-conda.txt && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
-WORKDIR $HOME/work/src
+WORKDIR $HOME/work
 
 # Uncomment the following lines 
 # if you want to give the sudo permission to jovyan
