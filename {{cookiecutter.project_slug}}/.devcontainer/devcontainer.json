@@ -31,7 +31,9 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-python.python",
-		"ms-azuretools.vscode-docker"
+		"ms-azuretools.vscode-docker",
+		"james-yu.latex-workshop",
+		"tht13.html-preview-vscode"
 	]
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.

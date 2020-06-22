@@ -37,3 +37,12 @@ For information on Jupyter Docker Stacks, consult the followings:
   * [Documentation on ReadTheDocs](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html)
   * [Repository on github](https://github.com/jupyter/docker-stacks)
   * [Jupyter on Docker Hub](https://hub.docker.com/u/jupyter/)
+
+## VScode extensions
+* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+    * [github repository](https://github.com/Microsoft/vscode-python)
+* [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+    * [github repository](https://github.com/James-Yu/LaTeX-Workshop/)
+* [HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode)
+    * [github repository](https://github.com/tht13/html-preview-vscode)
+
