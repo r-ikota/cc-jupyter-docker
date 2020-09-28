@@ -33,7 +33,8 @@
 		"ms-python.python",
 		"ms-azuretools.vscode-docker",
 		"james-yu.latex-workshop",
-		"tht13.html-preview-vscode"
+		"tht13.html-preview-vscode",
+		"eamodio.gitlens"
 	]
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.
