@@ -21,7 +21,10 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
-		"terminal.integrated.shell.linux": "start.sh",
+		"terminal.integrated.profiles.linux": {
+			"jupy-con": {"path": "start.sh"}
+		},
+		"terminal.integrated.defaultProfile.linux": "jupy-con",
 		"python.pythonPath": "/opt/conda/bin/python",
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": true,
@@ -34,6 +37,7 @@
 		"ms-azuretools.vscode-docker",
 		"james-yu.latex-workshop",
 		"tht13.html-preview-vscode",
+		"janisdd.vscode-edit-csv",
 		"eamodio.gitlens"
 	]
 

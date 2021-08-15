@@ -17,10 +17,10 @@ To stop and remove the container,
     $ docker-compose down
     
 To execute a shell,
-    $ docker-compose exec python start.sh
+    $ docker-compose exec jupyter start.sh
 
 If you have to run a command as a root,
-    $ docker-compose exec --user root -e GRANT_SUDO=yes python start.sh
+    $ docker-compose exec --user root -e GRANT_SUDO=yes jupyter start.sh
 
 To destroy the container you launched,
     $ docker-compose down
