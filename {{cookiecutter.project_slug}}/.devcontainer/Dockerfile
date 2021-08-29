@@ -21,9 +21,9 @@ WORKDIR $HOME/work
 # USER root
 # ENV GRANT_SUDO=yes
 
-CMD ["start.sh", "jupyter", "lab", "--port={{cookiecutter.jupyter_port}}"]
+CMD ["start.sh", "jupyter", "lab", "--port={{cookiecutter.container_port}}"]
 
 # Uncomment the following line
 # if you want to launch Jupyter without token
 # 
-# CMD ["start.sh", "jupyter", "lab", "--port={{cookiecutter.jupyter_port}}", "--LabApp.token=''"]
+# CMD ["start.sh", "jupyter", "lab", "--port={{cookiecutter.container_port}}", "--LabApp.token=''"]

@@ -8,5 +8,6 @@
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
   "base_image": ["jupyter/minimal-notebook", "jupyter/r-notebook", "jupyter/scipy-notebook", "jupyter/tensorflow-notebook", "jupyter/datascience-notebook", "jupyter/pyspark-notebook", "jupyter/all-spark-notebook"],
   "tag_name": "latest",
-  "jupyter_port": "8888"
+  "host_port": "127.0.0.1:8888",
+  "container_port": "8888"
 }

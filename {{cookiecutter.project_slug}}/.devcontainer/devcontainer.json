@@ -38,7 +38,9 @@
 		"james-yu.latex-workshop",
 		"tht13.html-preview-vscode",
 		"janisdd.vscode-edit-csv",
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+		"CoenraadS.bracket-pair-colorizer-2",
+		"Gruntfuggly.todo-tree"
 	]
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.

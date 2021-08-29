@@ -7,6 +7,6 @@ services:
         environment: 
             - PYTHONPATH=/home/jovyan/work/src
         ports:
-            - "{{cookiecutter.jupyter_port}}:{{cookiecutter.jupyter_port}}"
+            - "{{cookiecutter.host_port}}:{{cookiecutter.container_port}}"
         volumes:
             - .:/home/jovyan/work:cached
