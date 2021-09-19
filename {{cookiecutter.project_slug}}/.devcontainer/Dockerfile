@@ -10,7 +10,7 @@ FROM $BASE_CONTAINER
 
 USER $NB_UID
 COPY requirements-conda.txt /tmp/
-RUN conda install --yes --file /tmp/requirements-conda.txt && \
+RUN mamba install --yes --file /tmp/requirements-conda.txt && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
 WORKDIR $HOME/work
