@@ -4,7 +4,7 @@ FROM $BASE_CONTAINER
 
 # USER root
 # RUN apt-get update \
-#  && apt-get install -y less tree
+#  && apt-get install -y less make tree latexmk
 # COPY --chown=$NB_USER:$NB_GID <a file you want to copy> $HOME/ 
 # COPY --chown=$NB_USER:$NB_GID .emacs $HOME/ 
 

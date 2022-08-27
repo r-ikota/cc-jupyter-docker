@@ -24,9 +24,11 @@
 * [Bokeh](https://numfocus.org/project/bokeh)
 * [SymPy](https://www.sympy.org/en/index.html)
 * [Sphinx](https://www.sphinx-doc.org/)
+    * [nbsphinx](https://nbsphinx.readthedocs.io/en/latest/)
 * [Pylint](https://pypi.org/project/pylint/)
 * [Flake8](https://pypi.org/project/flake8/)
 * [Black](https://pypi.org/project/black/)
+* [papermill](https://papermill.readthedocs.io/en/latest/)
 
 # R
 * [The R Project for Statistical Computing](https://www.r-project.org)
@@ -38,9 +40,10 @@
 * [PyJulia](https://github.com/JuliaPy/pyjulia)
     * [PyJulia Documentation](https://pyjulia.readthedocs.io/en/latest/)
 
-## VScode
+## Visual Studio Code
 * [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview)
     * [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
     * [Advanced Container Configuration](https://code.visualstudio.com/docs/remote/containers-advanced)
     * [Visual Studio Online](https://code.visualstudio.com/docs/remote/vsonline)
+* [Extensions for Visual Studio Code](https://marketplace.visualstudio.com/vscode)
 

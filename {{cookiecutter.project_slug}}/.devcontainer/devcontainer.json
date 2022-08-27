@@ -2,7 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.101.0/containers/docker-existing-docker-compose
 // If you want to run as a non-root user in the container, see .devcontainer/docker-compose.yml.
 {
-	"name": "Existing Docker Compose (Extend)",
+	"name": "{{cookiecutter.project_slug}}",
 
 	// Update the 'dockerComposeFile' list if you have more compose files or use different names.
 	// The .devcontainer/docker-compose.yml file contains any overrides you need/want to make.
@@ -37,11 +37,11 @@
 		"ms-python.vscode-pylance",
 		"ms-azuretools.vscode-docker",
 		"james-yu.latex-workshop",
-		"tht13.html-preview-vscode",
+		"ms-vscode.live-server",
 		"janisdd.vscode-edit-csv",
 		"eamodio.gitlens",
 		"Gruntfuggly.todo-tree"
-	]
+	],
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.
 	// "runServices": [],
@@ -53,5 +53,5 @@
 	// "postCreateCommand": "apt-get update && apt-get install -y git",
 
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
-	// "remoteUser": "root"
+	"remoteUser": "jovyan"
 }

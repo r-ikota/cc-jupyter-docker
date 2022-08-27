@@ -4,3 +4,4 @@ rope
 black
 sphinx
 nbsphinx
+papermill
