@@ -18,7 +18,6 @@ WORKDIR $HOME/work
 # Uncomment the following lines 
 # if you want to give the sudo permission to jovyan
 #
-# USER root
 # ENV GRANT_SUDO=yes
 
 CMD ["start.sh", "jupyter", "lab", "--port={{cookiecutter.container_port}}"]

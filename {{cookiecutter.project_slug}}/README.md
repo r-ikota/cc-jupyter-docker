@@ -17,13 +17,17 @@ To stop and remove the container,
     $ docker-compose down
     
 To execute a shell,
+
     $ docker-compose exec jupyter start.sh
 
 If you have to run a command as a root,
+
     $ docker-compose exec --user root -e GRANT_SUDO=yes jupyter start.sh
 
 To destroy the container you launched,
+
     $ docker-compose down
+
 
 ### remote-container extension
 Run VScode and type the following in the command pallet
@@ -31,6 +35,16 @@ Run VScode and type the following in the command pallet
      Remote-Containers: Open Folder in Container
      
 Consult [the official document](https://code.visualstudio.com/docs/remote/containers) for details.
+
+## back up and restore data volume
+
+To back up the volume:
+
+    $ docker run --rm --volumes-from <a container whoes volume will be backed up> -v $(PWD):/backup ubuntu tar cvf /backup/backup.tar /home/jovyan/data-volume
+
+To restore the backup:
+
+    $ docker run --rm --volumes-from <a container to which the data will be restored> -v $(pwd):/backup ubuntu bash -c "cd /home/jovyan/data-volume && tar xvf /backup/backup.tar --strip 3"
 
 ## Jupyter Notebook Container
 For information on Jupyter Docker Stacks, consult the followings:
@@ -46,3 +60,5 @@ For information on Jupyter Docker Stacks, consult the followings:
 * [HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode)
     * [github repository](https://github.com/tht13/html-preview-vscode)
 
+## Docker
+* [Document](https://docs.docker.com/)

@@ -4,9 +4,16 @@ services:
         build:
             context: ./.devcontainer
             dockerfile: Dockerfile
+        user: root
+        env_file:
+            - custom.env
         environment: 
-            - PYTHONPATH=/home/jovyan/work/src
+            - DATAVOLUME=/home/jovyan/data-volume
         ports:
             - "{{cookiecutter.host_port}}:{{cookiecutter.container_port}}"
         volumes:
             - .:/home/jovyan/work:cached
+            - {{cookiecutter.volume_name}}:/home/jovyan/data-volume
+
+volumes:
+    {{cookiecutter.volume_name}}:

@@ -7,6 +7,9 @@
 You can launch a container with the remote-container extension in VScode as well as with docker-compose.
 Read `README.md` in the generated project directory for details.
 
+## Notice
+A created volume will be mounted at /home/jovyan/data. If it doesn't meet your expectations, edit docker-compose.yml.
+
 ## About cookiecutter
 
 For information on cookiecutter, see the followings:
