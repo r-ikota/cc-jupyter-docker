@@ -6,7 +6,7 @@ BSD
 
 ## How to launch
 You can launch a container with docker-compose or with the remote-container extension in VScode.
-
+A data volume will be mounted at /home/jovyan/data-volume.
 ### docker-compose
 To launch a container at the project root, 
 
@@ -61,4 +61,4 @@ For information on Jupyter Docker Stacks, consult the followings:
     * [github repository](https://github.com/tht13/html-preview-vscode)
 
 ## Docker
-* [Document](https://docs.docker.com/)
+* [Documents](https://docs.docker.com/)
